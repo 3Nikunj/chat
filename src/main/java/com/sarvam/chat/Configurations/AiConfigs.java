@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AiConfigs {
-	@Value("${SARVAM_API_KEY}")
+	@Value("${sarvam.api.key}")
     private String sarvamApiKey;
 
     @Bean
